@@ -1,0 +1,29 @@
+.avatar {
+  margin: 30px 10px;
+  width: 20%;
+  height: 30%;
+}
+
+.info {
+  text-align: center;
+  font-family: "Helvetica", "Arial", sans-serif;
+  margin: 10px 10px;
+  margin-left: 50px;
+}
+
+.card {
+  /* 卡片样式: padding, margin,背景色，线色宽，边框圆角 */
+  padding: 10px;
+  width: 400px;
+  background-color: #f77f00;
+  border: 1px solid #2b2839;
+  border-bottom: 5px solid #2b2839;
+  margin-top: 15px;
+  border-radius: 25px;
+  /* 居中显示 */
+  margin-left: auto;
+  margin-right: auto;
+
+  display: flex;
+  flex-direction: row;
+}
